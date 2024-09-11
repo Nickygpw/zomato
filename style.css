@@ -1,0 +1,785 @@
+body{
+    overflow-x: hidden;
+}
+
+#Zomato{
+background-image: cover;
+background-repeat: no-repeat;
+}
+#logo{
+    position:absolute;
+    top:100px;
+    margin-left:550px;
+}
+#list{
+    position:relative;
+    display:flex;
+    list-style-type: none;
+}
+#head{
+    position:absolute;
+    top:200px;
+    color:white;
+    left:360px;
+    font-size: 45px;
+    
+}
+#l1{
+    position: relative;
+    top:-460px;
+    left:680px;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+}#l2{
+    position: relative;
+    top:-460px;
+    left:730px;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+}#l3{
+    position: relative;
+    top:-460px;
+    left:810px;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+}#l4{
+    position: relative;
+    top:-460px;
+    left:880px;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+}#l5{
+    position: relative;
+    top:-460px;
+    left:-380px;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+ 
+#input1{
+    border:2px solid grey ;
+    height: 60px;
+    width:750px ;
+    border-radius: 10px;
+   position: relative; 
+        top:-200px;
+    left:388px;
+}
+#net{
+    border:2px solid WHITE ;
+    height: 56px;
+    width:280px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   position: relative; 
+        top:0px;
+        background-color: white;
+    
+}
+#down{
+    position: relative;
+    left:248px;
+    top:15px;
+    color:gray;
+}
+
+#loc{position:absolute;
+    top:-2px;
+    left:0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+#cont{
+    border:2px solid white; ;
+    height: 56px;
+    width:200px ;
+background-color: white;
+   position: relative; 
+        top:-30px;
+    left:50px;
+}
+input{
+    position: absolute;
+    top:20px;
+    left:10px;
+
+}
+input:placeholder{
+    position:relative;
+    left:10px;
+    widht:100px;
+}
+#cont1{
+    border:2px solid white;
+    height: 56px;
+    width:466px ;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+
+   position: relative; 
+        top:-89.3px;
+    left:280px;
+    background-color:white ;
+}
+#line{
+    color:grey;
+    position:relative;
+    top:-2.3px;
+    text-align: center;
+
+    left:-223px;
+}
+.search{
+    position:relative;
+    top:-40px;
+    left:20px;
+}
+#cont2{
+    position: relative;
+    left:320px;
+    top:-150px;
+}
+
+
+#pg2{position: relative;
+    top:-60px;
+    left:230px;
+    display:flex;
+    gap:40px;
+
+
+}
+#img1{
+    
+    height: 200px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 25px;
+
+}
+#img2{
+    height: 200px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 25px;
+
+}
+#img3{
+    height: 200px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 25px;
+
+}
+#mg1{position: relative;
+    TOP:-10;
+    left:px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height:130px;
+    width:300px;
+}
+#mg2{position: relative;
+    TOP:-2px;
+    left:px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height:130px;
+    width:300px;
+}
+#mg3{position: relative;
+    TOP:-0px;
+    left:px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height:130px;
+    width:300px;
+}
+p{position: relative;
+    TOP:-15px;
+    text-align: center;
+    font-weight: 600;
+    font-size:20PX ;
+}
+span{ position: relative;
+    TOP:-35px;
+left:40px;
+       text-align: center;
+    font-weight: 400;
+    font-size:15PX ;
+
+
+}
+#collect{
+    position: relative;
+    left:-405px;
+    font-size: 45px;
+    font-weight: 600;
+}
+#top{
+  position: relative;
+  top:-50px;
+    left:200px;
+    font-size: 23px;
+}
+#ncr{  position: relative;
+    top:-80px;
+      left:1160px;
+      font-size: 18px;
+     color: red;
+
+}
+#a{position: relative;
+    TOP:-60px;
+    left:210px;
+
+}
+#trend{
+    position:absolute ;
+    color:white;
+    top:260px;
+    left:40px;
+
+}
+#place{position:absolute ;
+    top:280px;
+    left:40px;
+
+
+}
+#xy{
+    color: white;
+    outline:none ;
+
+}
+
+#b{position: relative;
+    top:-416px;
+    left:500px;
+
+}
+#worthy{    position:absolute ;
+    color:white;
+    top:260px;
+    left:20px;
+
+
+}
+#xy{
+    color: white;
+    outline:none ;
+
+}
+
+
+
+#c{position: relative;
+    TOP:-770px;
+    left:790px;
+
+}
+#xy{
+    color: white;
+    outline:none ;
+
+}
+
+#screen{  position:absolute ;
+    color:white;
+    top:260px;
+    left:20px;
+
+
+}
+#d{position: relative;
+    TOP:-1123px;
+    left:1080px;
+}
+#open{ position:absolute ;
+    color:white;
+    top:260px;
+    left:60px;
+}
+#xy{
+    color: white;
+    outline:none ;
+
+}
+
+#im1{
+    border-radius:5px;
+}
+#im2{
+    border-radius:5px;
+}
+#im3{
+    border-radius:5px;
+}
+    #im4{
+        border-radius:5px;
+    }
+    #pop{
+        position: relative;
+        top:-1100px;
+        font-size:40px;
+        left:-180px;
+        font-weight: 600;
+
+    }
+
+    
+    #div1{position: relative;
+        top:-1100px;
+        left:200px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #con{
+        position: relative;
+        top:10px;
+
+    
+        font-size: 24px;
+        font-family: "Nanum Myeongjo", serif;
+        
+      
+    }
+    #for{
+    position:abslotute ;
+    left:150px;
+    top:-52px;
+
+    }
+    #for1{
+        position:abslotute ;
+        left:150px;
+        top:-23px;
+    
+        }
+    
+    #div2{position: relative;
+        top:-1172px;
+        left:600px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div3{position: relative;
+        top:-1247px;
+        left:1000px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div4{position: relative;
+        top:-1200px;
+        left:200px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div9{position: relative;
+        top:-1443px;
+        left:1000px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div5{position: relative;
+        top:-1271px;
+        left:600px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div6{position: relative;
+        top:-1346px;
+        left:1000px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div7{position: relative;
+        top:-1300px;
+        left:200px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+    #div8{position: relative;
+        top:-1373px;
+        left:600px;
+        height: 70px;
+        width: 360px;
+        border:2px solid grey;
+        border-radius: 15px;
+
+    }
+
+    
+    #phone{
+        position: relative;
+        top:-1240px;
+        left:370px;
+    }
+   #get{
+    position: relative;
+    left:150px;
+    top:-1640px;
+    font-size: 55px;
+   }
+   #link{
+    position: relative;
+    top:-1680px;
+    left:610px;
+    font-size: 26px;
+    font:none;
+    color:rgb(128, 128, 128);
+
+
+   }
+   #email{position: relative;
+    top:-1630px;
+    left:600px;
+    font-size:25px; 
+    color:rgb(128, 128, 128);
+    
+   }
+
+   #ph{position: relative;
+    top:-1630px;
+    left:630px;
+    font-size:25px; 
+    color:rgb(128, 128, 128);
+
+
+
+   }
+   #radio{position: relative;
+    top:-1630px;
+    left:620px;
+    font-size:28px ;
+    
+
+   }
+   #radi{position: relative;
+    top:-1630px;
+    left:590px;
+    
+
+   }
+   #input2{
+    height: 45px;
+    position: relative;
+    top:-1600px;
+    left:670px;
+    font-size:25px;
+    border-radius: 7px;
+    border:2px solid grey
+   }
+   #share{
+    height: 45px;
+    width: 160px;
+    border: 2px solid rgb(239, 79, 95);
+    
+    position:relative;
+    top:-1649px;
+    left:1000px;
+    border-radius: 7px;
+    background-color: rgb(239, 79, 95);
+
+
+   } 
+   #app{
+    position: absolute;
+    top:-9px;
+    left:9px;
+    color:white;
+    
+   }
+   #google{
+    position: relative;
+    top:-1590px;
+    left:540px;
+   }
+   #store{
+    position: relative;
+    top:-1590px;
+    left:560px;
+
+   }
+   #from{
+    position: relative;
+    top:-1650px;
+    left:680px;
+    color:grey;
+    font-size: 17px;
+
+   }
+   #near{    position: relative;
+    top:-1500px;
+    left:-330px;
+    
+    font-size: 40px;
+
+
+   }
+
+
+
+   #box1{
+    height: 75px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top:-1480px;
+    left:210px;
+
+   }
+   
+   #box2{
+    height: 75px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top:-1450px;
+    left:210px;
+
+   }
+   
+   #box3{
+    height: 75px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top:-1420px;
+    left:210px;
+
+   }
+   
+   #box4{
+    height: 75px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top:-1400px;
+    left:210px;
+    color:grey;
+
+   }
+   #cuisines{
+    position: absolute;
+    top:30px;
+    left:10px;
+    font-size: 20px;
+    color:grey;
+   }
+   #type{
+    position: absolute;
+    top:30px;
+    left:10px;
+    font-size: 20px;
+    color:grey;
+   }
+   #chain{
+    position: absolute;
+    top:30px;
+    left:10px;
+    font-size: 20px;
+    color:grey;
+   }
+   #del{
+    position: absolute;
+    top:30px;
+    left:10px;
+    font-size: 20px;
+    color:grey;
+   }
+   #m2{
+    position: relative;
+    top:0px;
+    left:760px;
+    font-size: 20px;
+    font-weight: 700;
+   }
+   #m3{
+    position: relative;
+    top:0px;
+    left:696px;
+    font-size: 20px;
+    font-weight: 700;
+   }
+   #m4{
+    position: relative;
+    top:0px;
+    left:780px;
+    font-size: 20px;
+    font-weight: 700;
+   }
+   #m5{
+    position: relative;
+    top:0px;
+    left:786px;
+    font-size: 20px;
+    font-weight: 700;
+   }
+
+#drop{
+    border:2px solid grey;
+    height: 50px;
+    width: 1015px;
+    position: absolute; 
+    top:10px; 
+     left:200px;
+     border:none;
+}
+
+/* Dropdown button styling */
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+
+    cursor: pointer;
+}
+
+/* Container for dropdown */
+.dropdown {
+    position: relative;
+    top:-48px;
+    left:800px;
+    border:none;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is visible */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#pg7{
+    border:2px solid grey;
+    height:500px;
+    width: 100%;
+    background-color: rgb(238, 241, 243);
+    position: relative;
+    top:-1350px;
+    border: none;
+}
+.Indonesian{
+    position: relative;
+    top:60px;
+    left:200px;
+}
+
+
+#mn{
+position:relative;
+left:200px;
+margin-top: 40px;
+font-size: 30px;
+font-weight: 500;
+}
+#si{
+    position:relative;
+left:200px;
+margin-top: 70px;
+
+}
+#next{
+    position:relative;
+  margin-left:450px;
+    margin-top: -320px;
+    font-size: 30px;
+    font-weight: 500;
+    }
+    #next1{
+        position:relative;
+        margin-left:650px;
+        margin-top: -250px;
+        font-size: 30px;
+        font-weight: 500;
+        }
+        #next2{
+            position:abslotute;
+          margin-left:900px;
+            margin-top: -180px;
+            font-size: 30px;
+            font-weight: 500;
+            }
+            #s{
+                font-size: 20px;
+            }
+            #social{
+                position:absolute;
+                top:70px;
+                right:200px;
+            }
+            #f{
+                margin-top:0px ;
+            }
+            
